@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica;
+    background-color: #e6c1e6;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .field {
+    width: 500px;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 1.9rem;
+    border-radius: 25px;
+    border: 1px solid #091d55;
+  }
+  
+  .counter {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  #toggle {
+    background-color: #eb6dcf;
+    color: #fff;
+    font-size: 1.0rem;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #toggle:hover {
+    background-color: #f3008e;
+  }
